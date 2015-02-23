@@ -1,0 +1,17 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/images"
+    tools:context="com.example.student.androidguide.HelpActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="There are two buttons used in this app. When the terminology button is clicked, a second screen will come to the foreground. You can enter any Android Studio's command, terms or phrases. A list of suggestions will pop up. Select the one you want, it will show the explanation. The Websites contains 12 websites about learning Android. Those links will bring you to that website." />
+
+</RelativeLayout>

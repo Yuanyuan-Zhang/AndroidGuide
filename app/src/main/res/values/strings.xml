@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Android Guide</string>
+    <string name="action_about">About</string>
+    <string name="action_help">Help</string>
+    <string name="title_activity_terminology">Terminology</string>
+    <string name="title_activity_websites">Websites</string>
+    <string name="title_activity_about">About</string>
+    <string name="title_activity_help">Help</string>
+
+    <string-array name="name">
+        <item>adb</item>
+        <item>emulator</item>
+        <item>android</item>
+        <item>screenshot2</item>
+        <item>gradle</item>
+        <item>pm</item>
+        <item>lint</item>
+        <item>src/main</item>
+        <item>build/outputs</item>
+        <item>res/layout</item>
+        <item>res/values</item>
+        <item>project</item>
+        <item>panel</item>
+        <item>toolbar</item>
+        <item>status bar</item>
+        <item>preview pane</item>
+        <item>android pane</item>
+        <item>project explorer</item>
+        <item>.idea folder</item>
+        <item>intellisense</item>
+        <item>module</item>
+        <item>live layout</item>
+        <item>init</item>
+        <item>commit</item>
+        <item>push</item>
+        <item>add</item>
+        <item>pull</item>
+        <item>branch</item>
+        <item>clone</item>
+    </string-array>
+    <string-array name="value">
+        <item>adb means Android Debug Bridge. It is a command line tool to communicate with an emulator or connected Android device. For example, \'adb install GradleProject-debug.apk\' is a command to install an apk file into your android virtual device.</item>
+        <item>The emulator used to test and develop Android applications without using a physical device. For example, \'emulator -avd myPhone &amp;\' is a command to display an Android Phone\'s emulator. </item>
+        <item>The android tool is used to create, delete, and view Android Virtual Devices. For example, \'android list avd\' is a command to list the AVD that exists inside the project.</item>
+        <item>screenshot2 is a command to take a photo of your running device\'s screen. For example, \'screenshot2 -e name.png\', is a command to take a screenshot and save it as a png file.</item>
+        <item>gradle is a build toolkit that manages dependencies. For example, \'gradle build\' is a command to build the gradle.</item>
+        <item>pm means Package Manager is used to deal with package. For example, \'pm list packages\' is a command to list all installed packages.</item>
+        <item>Lint is a tool to check the Android project source file for potential bugs and optimization improvements for correctness, security, and etc. For example, \'lint --html lint.html GradleProject\' is a command to check the project\'s potential errors and generate a html file to display the details of the errors or warnings.</item>
+        <item>It contains 3 directories which are \'java\', \'org\', and \'hello\'. It also has a xml file \'AndroidManifest\' which is inside the \'main\' directory and a java file \'HelloActivity\' which is inside the \'hello\' directory and used to display messages.</item>
+        <item>It contains 3 directories which are \'apk\', \'lint-results_files\', and \'tmp\'. Inside the \'apk\' directory, there are 3 apk files, 1 png file, and 2 text file. Inside the \'lint-results_files\' directory, there are 3 png files and 1 css file. Inside the \'tmp\' directory, there are two empty directories. There are also 1 xml file and 1 html file inside the \'outputs\' directory.</item>
+        <item>It contains 1 xml file \'hello_layout\'.</item>
+        <item>It contains 1 xml file \'strings\'.</item>
+        <item>It is a project which contains everything that defines Android apps, from app source code to build configuration and test code. </item>
+        <item>It is the primary place that can be create an Android app which contains tools, source code, and etc.</item>
+        <item>It is the second row from the top of the Android Studio which contains a selection of shortcuts to frequently performed actions. </item>
+        <item>It is on the bottom of Android Studio which displays informational messages about the project and the activities.</item>
+        <item>It can be seen in the upper right corner to add a preview window.</item>
+        <item>It is on the bottom which stands for Android DDMS that can be used when you running your virtual device, such as screenshot.</item>
+        <item>It is in the upper left corner to explore the whole project folder.</item>
+        <item>It is a hidden folder inside the project folder which contains libraries folder, workspace.xml, gradle.xml, and etc.</item>
+        <item>It provides elements and attributes, and in a few cases values for everything from Layouts to Manifests.</item>
+        <item>It is a component of app that can be built, tested, or debuged independently. Modules contain the source code and resources for the app.</item>
+        <item>When you are running your virtual device, you can see the live layout from it. </item>
+        <item>It creates an empty Git repository or reinitialize an existing one.</item>
+        <item>When creating or doing some modifies for the project, the commit command can records these changes and be ready to be pushed to the github.</item>
+        <item>The push command can update the remote github\'s folder and upload your projects to the website.</item>
+        <item>The add command can add files to the index.</item>
+        <item>The pull command fetch from the remote repository and merge it.</item>
+        <item>The brand command list, create, and delete branch.</item>
+        <item>The clone command copies a repository into a new directory.</item>
+    </string-array>
+    <string-array name="web">
+        <item>Android Developer</item>
+        <item>Git Hub</item>
+        <item>xda developers</item>
+        <item>udemy</item>
+        <item>Android tutorial</item>
+        <item>How I learned to develop Android apps in less than a year</item>
+        <item>Developing Android Apps </item>
+        <item>Android App Development</item>
+        <item>Resources every Android developer must know</item>
+        <item>Getting Started with Android Development</item>
+        <item>Support Library (to help maintain support with older versions of Android)</item>
+        <item>Android Asset Studio</item>
+    </string-array>
+    <string-array name="link">
+        <item>https://developer.android.com/training/index.html</item>
+        <item>https://github.com/learning-android</item>
+        <item>http://www.xda-developers.com/want-to-learn-how-to-program-for-android-start-here/</item>
+        <item>https://www.udemy.com/learn-android-programming-from-scratch-beta/</item>
+        <item>http://www.tutorialspoint.com/android/</item>
+        <item>http://halfapp.com/blog/learned-develop-android-apps-less-year/</item>
+        <item>https://www.udacity.com/course/ud853</item>
+        <item>https://www.mysliderule.com/learning-paths/android/learn/</item>
+        <item>http://www.bongizmo.com/blog/android-resources-each-developer-should-know/</item>
+        <item>http://www.raywenderlich.com/5527/getting-started-with-android-development</item>
+        <item>Support Library (to help maintain support with older versions of Android)</item>
+        <item>http://romannurik.github.io/AndroidAssetStudio/</item>
+    </string-array>
+
+    <string name="title_activity_activity_webview">Websites</string>
+    <string name="action_settings">Settings</string>
+
+</resources>
